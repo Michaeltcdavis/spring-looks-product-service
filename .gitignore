@@ -35,3 +35,8 @@ application.properties
 
 #mac
 .DS_Store
+
+#data
+data/
+#target
+maven-status/
