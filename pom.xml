@@ -64,6 +64,11 @@
 			<artifactId>mongodb</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<scope>5.5.1</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
