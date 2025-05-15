@@ -40,3 +40,7 @@ application.properties
 data/
 #target
 maven-status/
+maven-archiver/
+surefire-reports/
+product_service-0.0.1-SNAPSHOT.jar
+product_service-0.0.1-SNAPSHOT.jar.original
