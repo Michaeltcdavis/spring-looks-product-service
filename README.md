@@ -4,6 +4,7 @@ A RESTful microservice for managing product catalog data for the Spring Looks e-
 
 ## Table of Contents
 - [Project Description](#project-description)
+- [Architecture](#architecture)
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Project Setup](#project-setup)
@@ -15,6 +16,15 @@ A RESTful microservice for managing product catalog data for the Spring Looks e-
 ## Project Description
 
 The Product Service is a Spring Boot microservice that provides a REST API for managing clothing items in the Spring Looks online store. It offers full CRUD operations for product management and uses MongoDB for data persistence. The service includes comprehensive API documentation via Swagger/OpenAPI and follows modern Spring Boot best practices.
+
+## Architecture
+
+Client → API Gateway (Port 9000) → Microservices
+├── Product Service (Port 8080)
+├── Order Service (Port 8081)
+└── Inventory Service (Port 8082)
+
+See spring-looks-api-gateway for details.
 
 ## Features
 
