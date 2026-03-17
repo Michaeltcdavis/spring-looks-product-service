@@ -39,6 +39,7 @@ application.properties
 #data
 data/
 #target
+target/
 maven-status/
 maven-archiver/
 surefire-reports/
